@@ -5,7 +5,6 @@ describe("Correct display a table of all available car models in a specific coun
     fillTheForm.visitHomePage();
   });
 
-  //Reference to the 'FillFormPageFirstSolution' class and methods for specific text fields. 
     context("Fill form and search", () => {
       it("Data entered correctly, displays the table of available cars.", () => {
         fillTheForm.selectCountryDropdown();
